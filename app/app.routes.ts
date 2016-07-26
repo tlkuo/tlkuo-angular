@@ -10,6 +10,11 @@ const routes: RouterConfig = [
   {
     path: 'dashboard',
     component: DashboardComponent
+  },
+  {
+    path: '',
+    redirectTo: '/dashboard',
+    pathMatch: 'full'
   }
 ];
 
